@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
 
             if(input != Vector2.zero)
             {
+                if (input.x != 0) input.y = 0;
+
                 animator.SetFloat("moveX", input.x);
                 animator.SetFloat("moveY", input.y);
                 var targetPos = transform.position;
