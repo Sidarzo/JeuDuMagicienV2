@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+
     }
 
     void Start()
@@ -36,7 +37,9 @@ public class PlayerController : MonoBehaviour
                 var targetPos = transform.position;
                 targetPos.x += input.x;
                 targetPos.y += input.y;
-                if(IsWalkable(targetPos)) StartCoroutine(Move(targetPos));
+
+
+                if (IsWalkable(targetPos)) StartCoroutine(Move(targetPos));
             }
         }
 
