@@ -46,8 +46,11 @@ public class PlayerController : MonoBehaviour
 
     void Animate()
     {
-        animator.SetFloat("Horizontal", movementDirection.x);
-        animator.SetFloat("Vertical", movementDirection.y);
+        if(movementDirection != Vector2.zero)
+        {
+            animator.SetFloat("Horizontal", movementDirection.x);
+            animator.SetFloat("Vertical", movementDirection.y);
+        }
     }
 
 }
