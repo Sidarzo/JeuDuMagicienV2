@@ -4,22 +4,19 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
+
+    public Vector2 movementDirection;
+    public float movementSpeed;
+    public float playerSpeed;
+
     private Rigidbody2D rb;
-    private Vector2 input;
-
-
-
-
-
-    private bool isMoving;
-    public LayerMask solidObjectsLayer;
     private Animator animator;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
+        playerSpeed = 5.0f;
 
     }
 
@@ -30,9 +27,30 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        input.x = Input.GetAxisRaw("Horizontal");
-        input.y = Input.GetAxisRaw("Vertical");
+        ProcessInputs();
+        Move();
+        Animate();
     }
+
+    void ProcessInputs()
+    {
+        movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        movementSpeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
+        movementDirection.Normalize();
+    }
+
+    void Move()
+    {
+        rb.velocity = movementDirection * movementSpeed * playerSpeed;
+    }
+
+    void Animate()
+    {
+        animator.SetFloat("Horizontal", movementDirection.x);
+        animator.SetFloat("Vertical", movementDirection.y);
+    }
+
+}
 
 
 
