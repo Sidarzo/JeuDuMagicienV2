@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -700,6 +701,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Magicien_18: 2851880880136044295
+      Magicien_19: 3847037317371784889
+      Magicien_6: 6220310154171209882
+      Magicien_17: 5021453185649921256
+      Magicien_14: 8625559266605586814
+      Magicien_1: -7953222802933892431
+      Magicien_2: -6089483471710609442
+      Magicien_13: -5051363187212786798
+      Magicien_15: -3205872177538322608
+      Magicien_0: -1769719371590551873
+      Magicien_20: -7475272240943396372
+      Magicien_3: -8971903212342152599
+      Magicien_16: 5681107507313054376
+      Magicien_23: 6111674864269216703
+      Magicien_12: 8772502854666996434
+      Magicien_5: 8269824655893034939
+      Magicien_21: 8792256579897868224
+      Magicien_7: 4373208762725305706
+      Magicien_22: 2296338347519894247
+      Magicien_10: -305251243328167195
+      Magicien_11: -5123351215592828858
+      Magicien_24: -1218442959123468146
+      Magicien_9: 235528420952662310
+      Magicien_4: -7944011025711794721
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
