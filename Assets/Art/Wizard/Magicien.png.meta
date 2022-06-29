@@ -27,9 +27,6 @@ TextureImporter:
       213: 4373208762725305706
     second: Magicien_7
   - first:
-      213: -2243557650386901018
-    second: Magicien_8
-  - first:
       213: 235528420952662310
     second: Magicien_9
   - first:
@@ -77,87 +74,6 @@ TextureImporter:
   - first:
       213: -1218442959123468146
     second: Magicien_24
-  - first:
-      213: -1023156471095852936
-    second: Magicien_25
-  - first:
-      213: -1112164720898684229
-    second: Magicien_26
-  - first:
-      213: 5542127684873070351
-    second: Magicien_27
-  - first:
-      213: 2584882302697791421
-    second: Magicien_28
-  - first:
-      213: -3507082053288622171
-    second: Magicien_29
-  - first:
-      213: 9093716538753987222
-    second: Magicien_30
-  - first:
-      213: -4924765603276685927
-    second: Magicien_31
-  - first:
-      213: -8189244604808565615
-    second: Magicien_32
-  - first:
-      213: -8526168891129236035
-    second: Magicien_33
-  - first:
-      213: 8312562721425688257
-    second: Magicien_34
-  - first:
-      213: 4002634094346738100
-    second: Magicien_35
-  - first:
-      213: -4123078947070910565
-    second: Magicien_36
-  - first:
-      213: 6599949372207224857
-    second: Magicien_37
-  - first:
-      213: -7484644882336692114
-    second: Magicien_38
-  - first:
-      213: -4747511660282709175
-    second: Magicien_39
-  - first:
-      213: -9057404616273016592
-    second: Magicien_40
-  - first:
-      213: 5829630116541146615
-    second: Magicien_41
-  - first:
-      213: -7311842320698240962
-    second: Magicien_42
-  - first:
-      213: -3912869036869085001
-    second: Magicien_43
-  - first:
-      213: 3881270285735890566
-    second: Magicien_44
-  - first:
-      213: 4281874196999380112
-    second: Magicien_45
-  - first:
-      213: -3454728360856210182
-    second: Magicien_46
-  - first:
-      213: -7092202236542810640
-    second: Magicien_47
-  - first:
-      213: -8812183779976129263
-    second: Magicien_48
-  - first:
-      213: -344937623819358993
-    second: Magicien_49
-  - first:
-      213: -4288660739032153216
-    second: Magicien_50
-  - first:
-      213: -8129875064343448594
-    second: Magicien_51
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -439,31 +355,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magicien_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e7249f24384dd0e0800000000000000
-      internalID: -2243557650386901018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Magicien_9
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 192
         width: 16
         height: 32
@@ -484,7 +379,7 @@ TextureImporter:
       name: Magicien_10
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 192
         width: 16
         height: 32
@@ -505,7 +400,7 @@ TextureImporter:
       name: Magicien_11
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 192
         width: 16
         height: 32
@@ -526,8 +421,8 @@ TextureImporter:
       name: Magicien_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
+        x: 48
+        y: 192
         width: 16
         height: 32
       alignment: 0
@@ -547,8 +442,8 @@ TextureImporter:
       name: Magicien_13
       rect:
         serializedVersion: 2
-        x: 16
-        y: 160
+        x: 80
+        y: 192
         width: 16
         height: 32
       alignment: 0
@@ -568,8 +463,8 @@ TextureImporter:
       name: Magicien_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
+        x: 96
+        y: 192
         width: 16
         height: 32
       alignment: 0
@@ -589,8 +484,8 @@ TextureImporter:
       name: Magicien_15
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
+        x: 112
+        y: 192
         width: 16
         height: 32
       alignment: 0
@@ -610,8 +505,8 @@ TextureImporter:
       name: Magicien_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 128
+        y: 192
         width: 16
         height: 32
       alignment: 0
@@ -631,8 +526,8 @@ TextureImporter:
       name: Magicien_17
       rect:
         serializedVersion: 2
-        x: 16
-        y: 128
+        x: 0
+        y: 160
         width: 16
         height: 32
       alignment: 0
@@ -652,8 +547,8 @@ TextureImporter:
       name: Magicien_18
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
+        x: 16
+        y: 160
         width: 16
         height: 32
       alignment: 0
@@ -673,8 +568,8 @@ TextureImporter:
       name: Magicien_19
       rect:
         serializedVersion: 2
-        x: 48
-        y: 128
+        x: 32
+        y: 160
         width: 16
         height: 32
       alignment: 0
@@ -694,8 +589,8 @@ TextureImporter:
       name: Magicien_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 48
+        y: 160
         width: 16
         height: 32
       alignment: 0
@@ -715,8 +610,8 @@ TextureImporter:
       name: Magicien_21
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
+        x: 0
+        y: 128
         width: 16
         height: 32
       alignment: 0
@@ -736,8 +631,8 @@ TextureImporter:
       name: Magicien_22
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 16
+        y: 128
         width: 16
         height: 32
       alignment: 0
@@ -757,8 +652,8 @@ TextureImporter:
       name: Magicien_23
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
+        x: 32
+        y: 128
         width: 16
         height: 32
       alignment: 0
@@ -778,8 +673,8 @@ TextureImporter:
       name: Magicien_24
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 48
+        y: 128
         width: 16
         height: 32
       alignment: 0
@@ -791,573 +686,6 @@ TextureImporter:
       bones: []
       spriteID: e80be529598371fe0800000000000000
       internalID: -1218442959123468146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_25
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 96
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87080b64c940dc1f0800000000000000
-      internalID: -1023156471095852936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_26
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbacc1f241cc090f0800000000000000
-      internalID: -1112164720898684229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_27
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 96
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f07a7b414c799ec40800000000000000
-      internalID: 5542127684873070351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_28
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbfde7e42c85fd320800000000000000
-      internalID: 2584882302697791421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_29
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a7859f2477545fc0800000000000000
-      internalID: -3507082053288622171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_30
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 692b68ce20f533e70800000000000000
-      internalID: 9093716538753987222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_31
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99d71aeb6c7b7abb0800000000000000
-      internalID: -4924765603276685927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_32
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19ce99f9b65f95e80800000000000000
-      internalID: -8189244604808565615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_33
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db5714d2196fca980800000000000000
-      internalID: -8526168891129236035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_34
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c68bb7d0c72c5370800000000000000
-      internalID: 8312562721425688257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_35
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b9976f70863c8730800000000000000
-      internalID: 4002634094346738100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_36
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9f52faea81e7c6c0800000000000000
-      internalID: -4123078947070910565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_37
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91859f96cfab79b50800000000000000
-      internalID: 6599949372207224857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_38
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6840668223312890800000000000000
-      internalID: -7484644882336692114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_39
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94bf2d16c437d1eb0800000000000000
-      internalID: -4747511660282709175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_40
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f8401c5d72ad4280800000000000000
-      internalID: -9057404616273016592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_41
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f5aa5c44b107e050800000000000000
-      internalID: 5829630116541146615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_42
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e301d1d262e178a90800000000000000
-      internalID: -7311842320698240962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_43
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b81bcc9752b2b9c0800000000000000
-      internalID: -3912869036869085001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_44
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68e0192d2ca0dd530800000000000000
-      internalID: 3881270285735890566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_45
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09c1f0555e54c6b30800000000000000
-      internalID: 4281874196999380112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_46
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af4b2b71cd65e00d0800000000000000
-      internalID: -3454728360856210182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_47
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f582a754af639d90800000000000000
-      internalID: -7092202236542810640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_48
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11550138a85d4b580800000000000000
-      internalID: -8812183779976129263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_49
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fec64960f09863bf0800000000000000
-      internalID: -344937623819358993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_50
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08303d7b7cd9b74c0800000000000000
-      internalID: -4288660739032153216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magicien_51
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee3b081f3b1ec2f80800000000000000
-      internalID: -8129875064343448594
       vertices: []
       indices: 
       edges: []
