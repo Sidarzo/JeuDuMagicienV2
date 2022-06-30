@@ -5,6 +5,7 @@ using UnityEngine;
 public class AttackPlayer : MonoBehaviour
 {
     public GameObject projectile;
+    public GameObject crosshair;
     public Transform firePosition;
 
     // Update is called once per frame
@@ -20,4 +21,8 @@ public class AttackPlayer : MonoBehaviour
             Instantiate(projectile, firePosition.position, firePosition.rotation);
         }
     }
+
+
+
+
 }
