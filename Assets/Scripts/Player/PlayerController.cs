@@ -17,7 +17,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
-    public GameObject projectilePrefab;
+
+    public AttackPlayer attackPlayer;
+
 
     private void Awake()
     {
@@ -25,11 +27,6 @@ public class PlayerController : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         playerSpeed = 5.0f;
         crosshairDistance = 1.0f;
-
-    }
-
-    void Start()
-    {
 
     }
 
@@ -76,16 +73,12 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-        Vector2 shootingDirection = crosshair.transform.localPosition;
-        shootingDirection.Normalize();
+        attackPlayer.shootFireBall();
+    }
 
-        if (endOfAiming)
-        {
-            GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-            projectile.GetComponent<Rigidbody2D>().velocity = shootingDirection * 8.0f;
-            projectile.transform.Rotate(0, 0, Mathf.Atan2(shootingDirection.y, shootingDirection.x) * Mathf.Rad2Deg);
-            Destroy(projectile, 2.0f);
-        }
+    public bool getEndOfAiming()
+    {
+        return endOfAiming;
     }
 
 }

@@ -4,21 +4,33 @@ using UnityEngine;
 
 public class AttackPlayer : MonoBehaviour
 {
-    public GameObject projectile;
-    public GameObject crosshair;
-    public Transform firePosition;
+    public PlayerController playerController;
+    private GameObject crosshair;
+    public GameObject[] prefabs;
+
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            Shoot();
-        }
+        
+    }
 
-        void Shoot()
+    private void Awake()
+    {
+        crosshair = playerController.crosshair;
+    }
+
+    public void shootFireBall()
+    {
+        Vector2 shootingDirection = crosshair.transform.localPosition;
+        shootingDirection.Normalize();
+
+        if (playerController.getEndOfAiming())
         {
-            Instantiate(projectile, firePosition.position, firePosition.rotation);
+            GameObject projectile = Instantiate(prefabs[0], transform.position, Quaternion.identity);
+            projectile.GetComponent<Rigidbody2D>().velocity = shootingDirection * 8.0f;
+            projectile.transform.Rotate(0, 0, Mathf.Atan2(shootingDirection.y, shootingDirection.x) * Mathf.Rad2Deg);
+            Destroy(projectile, 2.0f);
         }
     }
 
