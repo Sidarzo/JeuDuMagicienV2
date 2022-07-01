@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-        Debug.Log(inv.GetSelectedSpell());
+        int idSpell = inv.GetSelectedSpell();
         attackPlayer.shootFireBall();
     }
 
