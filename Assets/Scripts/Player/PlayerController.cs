@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
-
+    public InvManagement inv;
     public AttackPlayer attackPlayer;
 
 
@@ -73,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
+        Debug.Log(inv.GetSelectedSpell());
         attackPlayer.shootFireBall();
     }
 

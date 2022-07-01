@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class InvManagement : MonoBehaviour
 {
     private int selectedSpell = 0;
-    public void SetSelectedSpell(Button button)
+    public void SetSelectedSpell(int idSlot)
     {
-        Debug.Log(button.name);
-        selectedSpell = 1;
+        
+        selectedSpell = idSlot;
     }
 
     public int GetSelectedSpell()
