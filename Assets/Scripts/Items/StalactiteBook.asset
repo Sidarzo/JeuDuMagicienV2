@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3b20fbd30e867640aee5e88ff7bd543, type: 3}
-  m_Name: IceBallBook
+  m_Name: StalactiteBook
   m_EditorClassIdentifier: 
-  id: 2
-  itemName: Energie Book
-  description: "Boule d'\xE9nergie"
-  sprite: {fileID: -1088140863, guid: 2ae501c5291fcf24db2d2954509ae35e, type: 3}
+  id: 3
+  itemName: 'StalactiteBook '
+  description: 'StalactiteBook '
+  sprite: {fileID: -1474496275, guid: 2ae501c5291fcf24db2d2954509ae35e, type: 3}
