@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b5d9bdc76180db346975944d54f9fee9
+guid: 3d3ef90526cd4b544b62bf5e30798f79
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,8 +130,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13cdac9fcd09a8147bb3e2f097bff9a1
-      internalID: -1268890453
+      spriteID: dd983e59cb8cd9c4da10398b717f1bf5
+      internalID: 937164139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_HealthBar
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 74
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15cd0888191f5245ad9dce30cc4d860
+      internalID: -200122757
       vertices: []
       indices: 
       edges: []
@@ -147,7 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GUI_InvBar: -1268890453
+      GUI_InvBar: 937164139
+      GUI_HealthBar: -200122757
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
