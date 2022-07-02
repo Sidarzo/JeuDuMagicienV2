@@ -29,6 +29,9 @@ public class AttackPlayer : MonoBehaviour
             case 2:
                 shootPowerBall(spell);
             break;
+            case 3:
+                useStalactites(spell);
+            break;
             default:
                 Debug.LogError("Spell unknow");
             break;
@@ -61,6 +64,20 @@ public class AttackPlayer : MonoBehaviour
             Destroy(projectile, 2.0f);
         }
     }
+
+    private void useStalactites(Item spell)
+    {
+        Vector2 shootingDirection = crosshair.transform.localPosition;
+        shootingDirection.Normalize();
+
+        if (playerController.getEndOfAiming())
+        {
+            GameObject projectile = Instantiate(spell.prefab, transform.position, Quaternion.identity);
+            Destroy(projectile, 2.0f);
+        }
+    }
+
+
 
 
 

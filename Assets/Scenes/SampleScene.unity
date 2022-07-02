@@ -2066,8 +2066,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 1080732543}
-  prefabs:
-  - {fileID: 4336987303799544964, guid: 33a5f9af64d05ff4cb5fd8cac3ff0216, type: 3}
 --- !u!50 &1080732548
 Rigidbody2D:
   serializedVersion: 4
@@ -2462,7 +2460,7 @@ SpriteRenderer:
   m_SortingLayerID: 30488787
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021a8d0ab43517d488c6d4cb1807648c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
