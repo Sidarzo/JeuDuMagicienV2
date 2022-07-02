@@ -16,3 +16,4 @@ MonoBehaviour:
   itemName: 
   description: Livre pour apprendre Fire Ball
   sprite: {fileID: -1000125567, guid: 2ae501c5291fcf24db2d2954509ae35e, type: 3}
+  prefab: {fileID: 4336987303799544964, guid: 33a5f9af64d05ff4cb5fd8cac3ff0216, type: 3}

@@ -16,3 +16,4 @@ MonoBehaviour:
   itemName: 'StalactiteBook '
   description: 'StalactiteBook '
   sprite: {fileID: -1474496275, guid: 2ae501c5291fcf24db2d2954509ae35e, type: 3}
+  prefab: {fileID: 4336987303799544964, guid: 1843e4a33f3218140a99d7f6f1179c70, type: 3}

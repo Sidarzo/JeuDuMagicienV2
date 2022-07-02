@@ -73,8 +73,8 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-        int idSpell = inv.GetSelectedSpell();
-        attackPlayer.shootFireBall();
+        Item spell = inv.GetSelectedSpell();
+        attackPlayer.shoot(spell);
     }
 
     public bool getEndOfAiming()

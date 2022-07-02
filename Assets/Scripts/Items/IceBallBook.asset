@@ -16,3 +16,4 @@ MonoBehaviour:
   itemName: Energie Book
   description: "Boule d'\xE9nergie"
   sprite: {fileID: -1088140863, guid: 2ae501c5291fcf24db2d2954509ae35e, type: 3}
+  prefab: {fileID: 4336987303799544964, guid: 57324bdf0cdba644fb98128cf786c8c3, type: 3}

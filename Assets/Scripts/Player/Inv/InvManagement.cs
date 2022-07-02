@@ -27,9 +27,8 @@ public class InvManagement : MonoBehaviour
 
     }
 
-    public int GetSelectedSpell()
+    public Item GetSelectedSpell()
     {
-        Debug.Log(itemInInv[selectedSpell].description);
-        return selectedSpell;
+        return itemInInv[selectedSpell];
     }
 }
