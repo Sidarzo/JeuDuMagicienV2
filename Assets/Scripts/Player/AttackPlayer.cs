@@ -41,14 +41,11 @@ public class AttackPlayer : MonoBehaviour
     {
         Vector2 shootingDirection = crosshair.transform.localPosition;
         shootingDirection.Normalize();
+        GameObject projectile = Instantiate(spell.prefab, transform.position, Quaternion.identity);
+        projectile.GetComponent<Rigidbody2D>().velocity = shootingDirection * 8.0f;
+        projectile.transform.Rotate(0, 0, Mathf.Atan2(shootingDirection.y, shootingDirection.x) * Mathf.Rad2Deg);
+        Destroy(projectile, 2.0f);
 
-        if (playerController.getEndOfAiming())
-        {
-            GameObject projectile = Instantiate(spell.prefab, transform.position, Quaternion.identity);
-            projectile.GetComponent<Rigidbody2D>().velocity = shootingDirection * 8.0f;
-            projectile.transform.Rotate(0, 0, Mathf.Atan2(shootingDirection.y, shootingDirection.x) * Mathf.Rad2Deg);
-            Destroy(projectile, 2.0f);
-        }
     }
 
     private void shootPowerBall(Item spell)

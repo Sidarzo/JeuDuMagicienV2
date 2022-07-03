@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour
     public InvManagement inv;
     public AttackPlayer attackPlayer;
 
+    // HealthController
+
+    public int maxHealth;
+    public HealthManagement healthManagement;
 
     private void Awake()
     {
@@ -27,6 +31,9 @@ public class PlayerController : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         playerSpeed = 5.0f;
         crosshairDistance = 1.0f;
+        // Health
+        maxHealth = 100;
+        healthManagement.SetMaxHealth(maxHealth);
 
     }
 
@@ -73,8 +80,11 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-        Item spell = inv.GetSelectedSpell();
-        attackPlayer.shoot(spell);
+        if (endOfAiming)
+        {
+            Item spell = inv.GetSelectedSpell();
+            attackPlayer.shoot(spell);
+        }
     }
 
     public bool getEndOfAiming()
