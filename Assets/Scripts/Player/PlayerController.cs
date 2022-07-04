@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
         crosshairDistance = 1.0f;
         // Health
         maxHealth = 100;
-        healthManagement.SetMaxHealth(maxHealth);
+       // healthManagement.SetMaxHealth(maxHealth);
 
     }
 
