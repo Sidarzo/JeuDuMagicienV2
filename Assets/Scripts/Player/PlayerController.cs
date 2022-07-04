@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public int maxHealth;
     public HealthManagement healthManagement;
 
-    private void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
